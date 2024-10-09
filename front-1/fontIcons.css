@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('fonts/icons.eot?2g6t1e');
+  src:  url('fonts/icons.eot?2g6t1e#iefix') format('embedded-opentype'),
+    url('fonts/icons.ttf?2g6t1e') format('truetype'),
+    url('fonts/icons.woff?2g6t1e') format('woff'),
+    url('fonts/icons.svg?2g6t1e#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e900";
+}
+.icon-mail:before {
+  content: "\e901";
+}
+.icon-pasword:before {
+  content: "\e902";
+}
+.icon-phone:before {
+  content: "\e903";
+}
+.icon-telegram:before {
+  content: "\e904";
+}
+.icon-youtube:before {
+  content: "\e905";
+}
